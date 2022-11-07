@@ -1,0 +1,165 @@
+body {
+    background-color: #272b3beb;
+
+}
+
+.likeAndBrofile {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    background-color: #697d87;
+    margin-bottom: -2vh;
+    border-radius: 0 0 5px 5px;
+}
+
+.likeAndBrofile img {
+    width: 2vh;
+    margin: 1vw 0vw 1vw 2vw;
+}
+
+.commentContainer {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 5vh;
+    padding-bottom: 1vh;
+    margin-top: 7vh;
+}
+
+.container .leaveCommentBtn {
+    margin: 8vh auto 0 auto;
+    width: 28vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(29, 29, 29);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.likesAndTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    padding-top: 1vh;
+}
+
+.likes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vh;
+}
+
+.likes img {
+    width: 2vh;
+    margin: 0 1vh;
+}
+
+.likes p {
+    margin: 1vh 0 4px 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.user {
+    margin-right: 1vh;
+    padding: 1vh;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.user h4 {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.commentArt {
+    width: 90%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.commentArt {
+    margin: 0 auto;
+    overflow-wrap: break-word;
+}
+
+span {
+    font-size: 1.3rem;
+}
+
+.back {
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+    width: 2.5vh;
+}
+
+.noComments {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin-top: 20vh;
+}
+
+.commentBtn {
+    width: 28vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(65, 122, 78);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.titleInput {
+    width: 34vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: #f3f3f3;
+    margin: 4vh auto;
+    letter-spacing: 2px;
+}
+
+.textInput {
+    width: 43vh;
+    height: 26vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: #f3f3f3;
+    margin: 4vh auto;
+    letter-spacing: 2px;
+    font-weight: 800;
+    padding: 2vh;
+}
+
+.timestamp {
+    font-size: 10px;
+    font-weight: 100;
+    margin: 0 1vh 4vh 0;
+}

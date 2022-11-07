@@ -1,0 +1,93 @@
+.doneTasksContainer {
+    position: fixed;
+    top: 0;
+    background-color: #272b3beb;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.doneTasksContainer h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.back {
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+    width: 2.5vh;
+}
+
+.sadFace {
+    margin-top: 10vh;
+    font-size: 3rem;
+    color: #d57272;
+}
+
+.doneTasksContainer h5 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    padding: 2vh;
+    margin: 0;
+}
+
+.oneTask {
+    background-color: #636a77;
+    margin: 5vh 2vh;
+    border-radius: 15px;
+}
+
+.doneTasksContainer h6 {
+    font-size: 13px;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    margin: 1vh;
+}
+
+.doneTasksContainer .noComment {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    opacity: 0.4;
+}
+
+.doneTasksContainer .comment {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.link {
+    text-decoration: none;
+    margin-bottom: 3vh;
+}
+
+.levelAndComments {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1vh 5vh;
+    height: 6vh;
+}
+
+.oneTask .p {
+    color: #1c2634;
+    margin-top: -21vh;
+    margin-bottom: 7vh;
+    font-size: 5rem;
+    font-family: 'Inter', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+.oneTask a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}

@@ -1,0 +1,66 @@
+.sendTaskContainer {
+    display: inline-grid;
+    margin-top: 4vh;
+}
+
+.sendTaskContainer input {
+    width: 41vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    margin-bottom: 4vh;
+}
+
+.closeBtn {
+    display: block;
+    margin: 1vh auto 0 auto;
+    width: 9vh;
+    height: 5vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(150 59 59);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.doneBtn {
+    display: block;
+    margin: 1vh auto 0 auto;
+    width: 9vh;
+    height: 5vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(77, 143, 110);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating {
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+
+.sendTaskContainer a {
+    text-decoration: none;
+    color: white;
+    margin: -3vh 0 5vh;
+}

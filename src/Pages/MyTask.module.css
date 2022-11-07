@@ -1,0 +1,44 @@
+.oneTask {
+    background-color: #9aa1b3;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin: 7vh auto;
+}
+
+.deleteAndGoTo {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 2vh 1vh;
+}
+
+.deleteAndGoTo button {
+    margin: 2vh;
+    width: 20vh;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b2a2f;
+    color: white;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.oneTask h1 {
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    padding-top: 2vh;
+}
+
+.oneTask h2 {
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.back {
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+    width: 2.5vh;
+}

@@ -1,0 +1,30 @@
+.modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #090a0aeb;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    display: inline-flexbox;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.modalContainer h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    margin-top: 30vh;
+
+}
+
+.modalContainer h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    margin-top: 5vh;
+}

@@ -1,0 +1,186 @@
+.userPageContainer {
+    position: fixed;
+    top: 0;
+    background-color: #272b3beb;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.userPageContainer header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 11vh;
+}
+
+.bulb {
+    width: 6vh;
+}
+
+.userPageContainer header h1 {
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 0 6vh;
+    font-weight: 400;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.doneTasks {
+    width: 4vh;
+}
+
+.tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.tasks p {
+    font-size: 1.2rem;
+    margin: 0 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.btnOpacity {
+    opacity: 0.2;
+}
+
+.choosenSubjects {
+    display: grid;
+    grid-template-columns: 22vh 22vh;
+    padding: 10px;
+    gap: 3vh 4vh;
+    margin: 0 auto
+}
+
+.mySubjects {
+    display: flex;
+    justify-content: center;
+}
+
+.trash {
+    width: 4vh;
+}
+
+.oneSubjectArt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5e678b;
+    height: 6vh;
+    border-radius: 3px;
+}
+
+.oneSubjectArt h4 {
+    font-family: 'Inter', sans-serif;
+}
+
+.oneSubjectArt h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    width: 16px;
+}
+
+.range {
+    margin-bottom: 4vh;
+    width: 60vw;
+}
+
+.rangeLevel {
+    font-family: 'Inter', sans-serif;
+}
+
+.clearAndSerchBtns {
+    display: flex;
+    justify-content: center;
+    padding: 0 7vh;
+}
+
+.clearAndSerch {
+    display: block;
+    margin: 1vh auto 0 auto;
+    width: 18vh;
+    height: 4vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(29, 29, 29);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.footerSec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.userPageContainer footer {
+    position: fixed;
+    bottom: 2vh;
+    width: 100%;
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.Link h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-bottom: 1vh;
+}
+
+.foundTask {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: #3a9b5c;
+}
+
+.noFoundTask {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: #c24e4e;
+}
+
+.logout {
+    width: 3vh;
+    margin-top: 4vh;
+}
+
+strong {
+    color: #3a9b5c;
+}
+
+.addSubject {
+    margin-top: 12vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    height: 6vh;
+    width: 20vh;
+    font-size: 1rem;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+
+.hideAddSub {
+    opacity: 0.3;
+}

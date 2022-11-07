@@ -1,0 +1,138 @@
+.createTaskContainer {
+    display: inline-grid;
+
+}
+
+select {
+    width: 19vh;
+    height: 3vh;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 3vh;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+.range {
+    width: 30vh;
+    margin: 0 auto;
+}
+
+.createTaskContainer textarea {
+    width: 44vh;
+    height: 26vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    margin-bottom: 4vh;
+    padding: 2vh;
+}
+
+.createTaskContainer .infoInput {
+    width: 37vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    margin-bottom: 4vh;
+}
+
+.level {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 0;
+}
+
+.createTaskContainer h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 100;
+}
+
+.addHintBtn {
+    width: 24vh;
+    height: 5vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(29 33 36);
+    letter-spacing: 2px;
+    color: white;
+    margin: 3vh auto;
+}
+
+.addThisHint {
+    margin: 7vh auto;
+    display: block;
+    width: 24vh;
+    height: 5vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(101 134 163);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.hintSec {
+    margin-top: 3vh;
+
+}
+
+.hintArt {
+    display: flex;
+}
+
+
+
+.hintSec input {
+    width: 21vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    margin-bottom: 2vh;
+}
+
+.back {
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+    width: 2.5vh;
+}
+
+.done {
+    position: fixed;
+    right: 2vh;
+    bottom: 2vh;
+    width: 3.5vh;
+}

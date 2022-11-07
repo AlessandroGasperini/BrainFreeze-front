@@ -1,0 +1,88 @@
+.back {
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+    width: 3vh;
+}
+
+.oneTaskContainer h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin-top: 4vh;
+}
+
+.oneTaskContainer h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin-top: 4vh;
+}
+
+.assignArt {
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    margin: 0 6vh;
+}
+
+.assignArt h5 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.oneTaskContainer h4 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin: 1vh;
+}
+
+.oneTaskContainer h6 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 4vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.sectionMadyBy {
+    display: flex;
+    justify-content: center;
+}
+
+.sendBtn {
+    margin: 2vh;
+    width: 20vh;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b2a2f;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    margin-top: 7vh;
+}
+
+.hintList {
+    text-decoration: none;
+    color: #3692aa;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.hintArt h3 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    display: list-item;
+
+}

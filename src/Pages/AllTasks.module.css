@@ -1,0 +1,138 @@
+.view {
+    margin-top: -21vh;
+    margin-bottom: 7vh;
+
+}
+
+.view a {
+    color: #1c2634;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: -21vh;
+    margin-bottom: 7vh;
+    font-size: 5rem;
+    font-family: 'Inter', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+.back {
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+    width: 2.5vh;
+}
+
+.allTasksContainer {
+    position: fixed;
+    top: 0;
+    background-color: #272b3beb;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.allTasksContainer input {
+    width: 38vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    margin-bottom: 4vh;
+}
+
+
+
+
+.allTasksContainer h1 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    margin: 5vh 0 10vh 0;
+}
+
+.allTasksContainer h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    color: #ffcf75;
+}
+
+.oneTask .taskArt {
+    background-color: #636a77;
+    margin: 5vh 2vh;
+    border-radius: 15px;
+    height: 30vh;
+    padding: 2vh;
+    height: 41vh;
+}
+
+.oneTask h4 {
+    margin-top: 0;
+    margin-bottom: 3vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.oneTask h6 {
+    font-family: 'Inter', sans-serif;
+    margin: 1vh;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 12px;
+}
+
+
+.allTasksContainer .noComments {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    opacity: 0.4;
+}
+
+.allTasksContainer .comment {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+.commentAndLevelArt {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vh;
+    margin-bottom: 2vh;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.allTasksContainer h2 {
+    font-weight: 100;
+}
+
+.smile {
+    font-size: 4rem;
+    color: #a64f4f;
+}
+
+.nameAndTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeStamp {
+    margin: 0;
+}

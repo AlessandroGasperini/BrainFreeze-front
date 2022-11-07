@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Kalam&family=Montserrat:wght@300&display=swap');
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+.loginContainer {
+    position: fixed;
+    top: 0;
+    background-color: #272b3beb;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.lightbulb {
+    margin-top: 8vh;
+    width: 18vh
+}
+
+.logoText {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 3vh;
+    margin: 3vh 0 10vh 0;
+}
+
+.loginContainer input {
+    width: 38vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    margin-bottom: 4vh;
+}
+
+.loginBtn {
+    display: block;
+    margin: 1vh auto 0 auto;
+    width: 39vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(29, 29, 29);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.loginSection {
+    margin: 0 auto;
+    width: 39vh;
+
+}
+
+.forgotPsw {
+    display: flex;
+}
+
+.forgotPsw h5 {
+    margin: 0 0 0 5px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    font-size: 11px;
+    color: #a4f5ff;
+}
+
+.instaBtn {
+    background: rgb(80, 92, 209);
+    background: linear-gradient(90deg, rgba(80, 92, 209, 1) 2%, rgba(144, 61, 188, 1) 11%, rgba(214, 46, 128, 1) 44%, rgba(232, 67, 87, 1) 61%, rgba(254, 209, 111, 1) 91%);
+}
+
+.instagram {
+    width: 15vh;
+}
+
+.facebook {
+    width: 4vh;
+    margin-left: 3px;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.socialMedia button {
+    width: 19vh;
+    height: 6vh;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+}
+
+.faceBookLogo {
+    background-color: #3B5999;
+}
+
+.loginContainer h4 {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+.createBtn {
+    position: fixed;
+    bottom: 2vh;
+    width: 100%;
+}
+
+
+
+.linkCreateBtn {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.passwordArticle {
+    margin-bottom: 4vh;
+}
+
+.eyeSection {
+    width: 38vh;
+    display: flex;
+    justify-content: end;
+    margin: -3vh auto;
+}
+
+.eyeSection img {
+    width: 4vh;
+}
+
+.forgotPsw {
+    text-decoration: none;
+}
