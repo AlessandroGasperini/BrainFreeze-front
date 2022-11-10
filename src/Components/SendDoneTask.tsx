@@ -26,6 +26,8 @@ function SendDoneTask(props: SendTask) {
     async function doneTask(task: Task) {
         props.setSendTask(false)
         props.setDoneTaskModal(true)
+        console.log("jdksajdksajkdjsk", task);
+
         const doneTast = {
             ...task,
             taskDoneBy: userInfo._id,
@@ -38,7 +40,7 @@ function SendDoneTask(props: SendTask) {
             feedbackUsers: [],
             timeStamp: today
         }
-        const response = await fetch('http://localhost:3333/doneTask', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/doneTask', {
             method: 'POST',
             body: JSON.stringify(doneTast),
             headers: {

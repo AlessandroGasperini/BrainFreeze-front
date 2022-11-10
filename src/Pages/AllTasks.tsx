@@ -18,7 +18,7 @@ function AllTasks() {
 
     // Hämta alla ämnen det går att söka mellan
     async function allSubjects() {
-        const response = await fetch('http://localhost:3333/allSubjects', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/allSubjects', {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json"
@@ -42,7 +42,7 @@ function AllTasks() {
             subject: subject
         }
 
-        const response = await fetch('http://localhost:3333/allTasks', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/allTasks', {
             method: 'POST',
             body: JSON.stringify(sendSubject),
             headers: {
@@ -101,14 +101,14 @@ function AllTasks() {
 
             {/* Visar alla "tasks" som gjorts i valt ämne */}
             {!showInput && <section className={styles.oneTask}>
-                {tasks.map((task: Task, id: number) => (
+                {tasks.map((task: Task | any, id: number) => (
                     <article key={id} className={styles.taskArt}>
                         <article className={styles.nameAndTime}>
                             <h4>{task.name}</h4>
                             <h6 className={styles.timeStamp}>{task.timeStamp}</h6>
                         </article>
 
-                        <h6>Made by: {task.madeBy}</h6>
+                        <h6>Made by: {task.fullName}</h6>
                         <TaskImg task={task.img} />
                         <h5 className={styles.view}><a target="_blank" rel="noreferrer" href={task.doneAssignment}>View</a></h5>
                         <article className={styles.commentAndLevelArt}>

@@ -20,7 +20,7 @@ function DoneTasks() {
         let user: User = {
             id: userInfo._id
         }
-        const response = await fetch('http://localhost:3333/allMyDoneTasks', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/allMyDoneTasks', {
             method: 'POST',
             body: JSON.stringify(user),
             headers: {

@@ -32,7 +32,7 @@ function CreateAccount() {
 
     // Skapa konto (Kolla om användarnamn eller email redan existerar)
     async function addNewAccount() {
-        const response = await fetch('http://localhost:3333/addAccount', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/addAccount', {
             method: 'POST',
             body: JSON.stringify(newAccount),
             headers: {

@@ -25,7 +25,7 @@ function LoginPage() {
 
     // Testa logga in
     async function login() {
-        const response = await fetch('http://localhost:3333/login', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/login', {
             method: 'POST',
             body: JSON.stringify(loginCredentials),
             headers: {

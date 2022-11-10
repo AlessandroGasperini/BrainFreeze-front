@@ -65,7 +65,7 @@ function CreateTask() {
             setCreatedTaskModal(false)
         }, 3000)
         setCreatedTaskModal(true)
-        const response = await fetch('http://localhost:3333/sendNewTask', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/sendNewTask', {
             method: 'POST',
             body: JSON.stringify(sendTask),
             headers: {

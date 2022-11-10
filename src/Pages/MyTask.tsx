@@ -20,7 +20,7 @@ function MyTask() {
         let id: Id = {
             id: userInfo._id
         }
-        const response = await fetch('http://localhost:3333/getAllUserInfo', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/getAllUserInfo', {
             method: 'POST',
             body: JSON.stringify(id),
             headers: {
@@ -46,7 +46,7 @@ function MyTask() {
             chosenTask: task,
             userId: userInfo._id,
         }
-        const response = await fetch('http://localhost:3333/deleteTask', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/deleteTask', {
             method: 'DELETE',
             body: JSON.stringify(deleteTask),
             headers: {

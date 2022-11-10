@@ -32,7 +32,7 @@ function ForgotPassword() {
 
     // Skickar koden till din email
     async function setNewPassword() {
-        const response = await fetch('http://localhost:3333/resetPassword', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/resetPassword', {
             method: 'POST',
             body: JSON.stringify(myEmail),
             headers: {
@@ -64,7 +64,7 @@ function ForgotPassword() {
         if (resetKey === myKey) {
             setChangedPswModal(true)
             console.log("byt till nya lösen");
-            await fetch('http://localhost:3333/changePassword', {
+            await fetch('https://brain-freeze-j7ou.onrender.com/changePassword', {
                 method: 'POST',
                 body: JSON.stringify(changePassword),
                 headers: {

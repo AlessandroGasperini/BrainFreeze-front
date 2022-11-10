@@ -29,7 +29,7 @@ function UserPage() {
 
 
     useEffect(() => {
-        setUsersSubjects(userInfo.subjects)
+        // setUsersSubjects(userInfo.subjects)
         getAllUserInfo()
     }, []) // <--- Hur kan denna jävel bli warning i EsLink... känns standard
 
@@ -38,7 +38,7 @@ function UserPage() {
         let id: Id = {
             id: userInfo._id
         }
-        const response = await fetch('http://localhost:3333/getAllUserInfo', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/getAllUserInfo', {
             method: 'POST',
             body: JSON.stringify(id),
             headers: {
@@ -65,7 +65,7 @@ function UserPage() {
             id: userInfo._id
         }
 
-        const response = await fetch('http://localhost:3333/serachTasks', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/serachTasks', {
             method: 'POST',
             body: JSON.stringify(getTaskObj),
             headers: {
@@ -130,7 +130,7 @@ function UserPage() {
             subject: subject
         }
 
-        const response = await fetch("http://localhost:3333/removeSubject", {
+        const response = await fetch("https://brain-freeze-j7ou.onrender.com/removeSubject", {
             method: "DELETE",
             body: JSON.stringify(sub),
             headers: {
@@ -153,7 +153,7 @@ function UserPage() {
         <section className={styles.userPageContainer}>
             <header>
                 <Link to={tasks.length === 0 ? "/user" : "/mytask"}><img className={styles.bulb} src={taskImg} alt="" /></Link>
-                <h1 className={usersSubjects && usersSubjects.length === 6 ? styles.hideAddSub : ""} onClick={usersSubjects && usersSubjects.length === 6 ? () => null : () => setOpenSubject(true)}>Add subject</h1>
+                <h1 className={usersSubjects && usersSubjects.length >= 8 ? styles.hideAddSub : ""} onClick={usersSubjects && usersSubjects.length >= 8 ? () => null : () => setOpenSubject(true)}>Add subject</h1>
                 <Link className={styles.link} to={"/doneTasks"}><img className={styles.doneTasks} src={doneTasks} alt="" /></Link>
             </header>
 
@@ -200,7 +200,7 @@ function UserPage() {
                 </section>
             </footer>
 
-            {openSubjects && <SubjectsModal setOpenSubject={setOpenSubject} getAllUserInfo={() => getAllUserInfo()} />}
+            {openSubjects && <SubjectsModal setUsersSubjects={setUsersSubjects} setOpenSubject={setOpenSubject} getAllUserInfo={() => getAllUserInfo()} />}
         </section >
     );
 }

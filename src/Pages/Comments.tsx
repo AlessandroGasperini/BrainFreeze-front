@@ -40,7 +40,7 @@ function Comments() {
             commentID: commentID,
             user: userInfo._id
         }
-        const response = await fetch('http://localhost:3333/likeComment', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/likeComment', {
             method: 'PUT',
             body: JSON.stringify(like),
             headers: {
@@ -77,7 +77,7 @@ function Comments() {
             questionId: info.task._id,
             today: today
         }
-        const response = await fetch('http://localhost:3333/addComment', {
+        const response = await fetch('https://brain-freeze-j7ou.onrender.com/addComment', {
             method: 'POST',
             body: JSON.stringify(comment),
             headers: {
